@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+@media(max-width:576px){
+    header{
+        .second{
+            .general2{
+                .bottom{
+                    display: none !important;
+                }
+                .top{
+                    a{
+                        display: none !important;
+                    }
+                    p{
+                        display: none !important;
+                    }
+                    i{
+                        display: none !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+
+@mixin fonts($fs, $fw, $c) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $c;
+    text-decoration: none;
+}
+@mixin fonts($fs, $fw, $c) {
+    text-decoration: none;
+    font-size: $fs;
+    font-weight: $fw;
+    color: $c;
+}
+header{
+    position: sticky !important;
+    z-index: 111;
+    top: 0;
+    left: 0;
+    background-color: white;
+    .first{
+        .general1{
+            #lang{
+                margin-left: 2rem;
+                option{
+                    @include fonts(16px, 700, rgb(50, 50, 50));
+    
+                }
+            }
+            padding: 1rem 0rem;
+        }
+       a{
+        @include fonts(16px, 700, rgb(50, 50, 50));
+    }
+    .right{
+        font-weight: 400 !important;
+    }
+}
+.second{
+    nav{
+        .general2{
+            position: relative;
+            .top{
+                p{
+                    margin: 0;
+                    margin-right: -2rem !important;
+                }
+                position: relative;
+                ul{
+                    display: none;
+                    padding: 1rem 14rem 1rem 1rem;
+                    position: absolute;
+                        top: 3rem;
+                        right: 0rem;
+                        list-style: none;
+                        background-color: white;
+                        box-shadow: -2px 5px 20px 13px rgba(212,212,212,0.48);
+                        
+                        li{
+                            cursor: pointer;
+                            padding-bottom: 1rem;
+                            @include fonts(16px, 400, rgb(15, 21, 51));
+                        }
+                        .last{
+                            padding-bottom: 0rem;
+                        }
+                        .firstList{
+                            opacity: .3px;
+                            border: .02px solid rgb(236, 238, 243);
+                            width: 250%;
+                            margin-bottom: 1rem
+                        }
+                        .secondList{
+                            opacity: .3px;
+                            border: .02px solid rgb(236, 238, 243);
+                            width: 200%;
+                            margin-bottom: 1rem
+                        }
+                    }
+                    a{
+                        @include fonts(16px, 500, rgb(50, 50, 50));
+                    }
+                    input{
+                        width: 50%;
+                        padding: .4rem 1rem;
+                        border-radius: .3rem;
+                        border: .5px solid rgb(201, 207, 229);
+                        outline: none;
+                    }
+                    span{
+                        position: absolute;
+                        left: 62%;
+                        i{
+                            color: rgb(201, 207, 229);
+                        }
+                    }
+                    align-items: center;
+                   display: flex;
+                   justify-content: space-between;
+                }
+                .bottom{
+                    display: flex;
+                   justify-content: space-between;
+                   margin-top: 1rem;
+                   span{
+                    cursor: pointer;
+                   }
+                   ul{
+                    display: none;
+                    padding: 0;
+                    margin: 0;
+                    padding-top: 1rem;
+                    background-color: white;
+                    list-style: none;
+                    position: absolute;
+                     top: 134%;
+                    left: 0;
+                    li{
+                        margin-bottom: 1rem;
+                    }
+                   }
+                }
+            }
+        }
+       border-bottom: 1px solid rgb(201, 207, 229);
+       border-top: 1px solid rgb(201, 207, 229);
+       padding: 2rem 0rem;
+    }
+}
+
+main{
+    #first{
+        margin-top: 1.5rem;
+        overflow: hidden;
+        .sliders{
+            .slider{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #second{
+        margin-top: 1.5rem;
+        .box{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    #three{
+        margin-top: 1rem;
+        img{
+            height: 200px;
+            object-fit: contain;
+        }
+    }
+}
+
+
+.basket-list{
+    margin-top: 2rem;
+    img{
+        width: 30%;
+        height: 200px;
+        object-fit: contain;
+    }
+}

@@ -1,0 +1,175 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+@media (max-width: 576px) {
+  header .second .general2 .bottom {
+    display: none !important;
+  }
+  header .second .general2 .top a {
+    display: none !important;
+  }
+  header .second .general2 .top p {
+    display: none !important;
+  }
+  header .second .general2 .top i {
+    display: none !important;
+  }
+}
+header {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  z-index: 111;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+header .first .general1 {
+  padding: 1rem 0rem;
+}
+header .first .general1 #lang {
+  margin-left: 2rem;
+}
+header .first .general1 #lang option {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(50, 50, 50);
+}
+header .first a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(50, 50, 50);
+}
+header .first .right {
+  font-weight: 400 !important;
+}
+header .second {
+  border-bottom: 1px solid rgb(201, 207, 229);
+  border-top: 1px solid rgb(201, 207, 229);
+  padding: 2rem 0rem;
+}
+header .second nav .general2 {
+  position: relative;
+}
+header .second nav .general2 .top {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+header .second nav .general2 .top p {
+  margin: 0;
+  margin-right: -2rem !important;
+}
+header .second nav .general2 .top ul {
+  display: none;
+  padding: 1rem 14rem 1rem 1rem;
+  position: absolute;
+  top: 3rem;
+  right: 0rem;
+  list-style: none;
+  background-color: white;
+  box-shadow: -2px 5px 20px 13px rgba(212, 212, 212, 0.48);
+}
+header .second nav .general2 .top ul li {
+  cursor: pointer;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(15, 21, 51);
+}
+header .second nav .general2 .top ul .last {
+  padding-bottom: 0rem;
+}
+header .second nav .general2 .top ul .firstList {
+  opacity: 0.3px;
+  border: 0.02px solid rgb(236, 238, 243);
+  width: 250%;
+  margin-bottom: 1rem;
+}
+header .second nav .general2 .top ul .secondList {
+  opacity: 0.3px;
+  border: 0.02px solid rgb(236, 238, 243);
+  width: 200%;
+  margin-bottom: 1rem;
+}
+header .second nav .general2 .top a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(50, 50, 50);
+}
+header .second nav .general2 .top input {
+  width: 50%;
+  padding: 0.4rem 1rem;
+  border-radius: 0.3rem;
+  border: 0.5px solid rgb(201, 207, 229);
+  outline: none;
+}
+header .second nav .general2 .top span {
+  position: absolute;
+  left: 62%;
+}
+header .second nav .general2 .top span i {
+  color: rgb(201, 207, 229);
+}
+header .second nav .general2 .bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+header .second nav .general2 .bottom span {
+  cursor: pointer;
+}
+header .second nav .general2 .bottom ul {
+  display: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 1rem;
+  background-color: white;
+  list-style: none;
+  position: absolute;
+  top: 134%;
+  left: 0;
+}
+header .second nav .general2 .bottom ul li {
+  margin-bottom: 1rem;
+}
+
+main #first {
+  margin-top: 1.5rem;
+  overflow: hidden;
+}
+main #first .sliders .slider img {
+  width: 100%;
+}
+main #second {
+  margin-top: 1.5rem;
+}
+main #second .box img {
+  width: 100%;
+}
+main #three {
+  margin-top: 1rem;
+}
+main #three img {
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.basket-list {
+  margin-top: 2rem;
+}
+.basket-list img {
+  width: 30%;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=style.css.map */
