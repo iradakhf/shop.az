@@ -18,3 +18,10 @@ function getItemsFromBasket() {
     });
 }
 getItemsFromBasket();
+countBasket();
+
+function countBasket(){
+  let basket = JSON.parse(localStorage.getItem('basket'));
+  document.querySelector("header .second .top #count").innerHTML = basket.length;
+
+}
